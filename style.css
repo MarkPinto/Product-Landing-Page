@@ -1,0 +1,20 @@
+.flex-box
+{
+	background-color: blue;
+	display: flex;
+}
+
+.nav-link
+{
+
+}
+
+
+@media (max-width: 100px)
+{
+	/*Note: this is a place holder as well as the max-width*/
+	img
+	{
+		width: 100%;
+	}
+}
