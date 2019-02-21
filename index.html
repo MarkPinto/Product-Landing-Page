@@ -2,18 +2,23 @@
 <html>
 	<head>
 		<title>Product Landing Page</title>
-	</head>
-	<body>
-		<header id="header">
-			<img src="./image/logo.png" id="header-img">
-			
+		<link rel="stylesheet" type="text/css" href="./style.css">
+	   
+	   <header id="header">
+			<img src="https://i.ibb.co/VpQSsYS/logo.png" id="header-img">
+				
 			<nav id="nav-bar">
-				<a href="#header" class="nav-link">Home</a>
-				<a href="#header-img" class="nav-link">Email</a>
-				<a href="#email" class="nav-link">Test</a>	
-			</nav>
+		        <div class="flex-box">
+		        	<a href="#header" class="nav-link">Home</a>
+		        	<a href="#header-img" class="nav-link">About</a>
+		        	<a href="#email" class="nav-link">Email</a>
+		        </div>
+			</nav> 
 		</header>
 
+	</head>
+	<body class="center-items">
+    
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/2R2gb0MKJlo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
 		
 		<form id="form" action="https://www.freecodecamp.com/email-submit">
@@ -21,39 +26,6 @@
 			<input type="email" name="email" id="email" placeholder="Enter your email">
 			<input type="submit" name="submit" id="submit">
 		</form>
-
-		<div id="flex-box">
-			<div>1</div>
-			<div>2</div>
-			<div>3</div>
-		</div>
-
-		<style>
-  #box-container {
-    height: 500px;
-    display: flex;
     
-  }
-  
-  #box-1 {
-    background-color: dodgerblue;
-    width: 50%;
-    height: 50%;
-    
-  }
-
-  #box-2 {
-    background-color: orangered;
-    width: 50%;
-    height: 50%;
-    
-  }
-</style>
-<div id="box-container">
-  <div id="box-1">1</div>
-  <div id="box-2">2</div>
-  <div>3</div>
-</div>
-
 	</body>
 </html>

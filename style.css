@@ -1,20 +1,99 @@
+@font-face
+{
+	font-family: Diorite-BoldCursive;
+  	src: url(./Diorite-BoldCursive.ttf);
+}
+
+.center-items
+{
+	text-align: center;
+}
+
 .flex-box
 {
-	background-color: blue;
-	display: flex;
+	height: 50px;
+  	display: flex;
 }
 
 .nav-link
 {
-
+	font-family: Diorite-BoldCursive;
+  
+  	width: 33.33%;
+  	text-align:center;
+  	padding-top:0.5%;
+  	
 }
 
+#header
+{
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	background-color:#03dac6;
+}
 
-@media (max-width: 100px)
+#header-img
+{
+	/*This resizes the image*/
+	width:26%;
+	height: auto;
+	/*This resizes the image*/
+	  
+	/*This centers the image*/
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	/*This centers the image*/
+}
+
+a:link 
+{
+	color: black;
+  	text-decoration: none;
+  	font-size: 2em;
+  	overflow: hidden;
+}
+
+a:visited 
+{
+	color: black;
+  	text-decoration: none;
+}
+
+a:hover 
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:active 
+{
+	color: black;
+  	text-decoration: none;
+}
+
+body
+{
+	/*Stops nav bar from overlapping*/
+  	padding-top: 50%;
+}
+
+@media (max-height: 800px)
 {
 	/*Note: this is a place holder as well as the max-width*/
-	img
-	{
-		width: 100%;
-	}
+  	#header-img
+  	{
+    	/*This resizes the image*/
+    	width:20%;
+    	height: auto;
+    	/*This resizes the image*/
+  	}
+  
+  	body
+  	{
+    	/*Stops nav bar from overlapping*/
+    	padding-top: 25%;
+  	}
 }
