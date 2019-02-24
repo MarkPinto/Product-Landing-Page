@@ -21,6 +21,8 @@
   
   	width: 33.33%;
   	text-align:center;
+
+  	/*If borders around the links are enabled this stops the text from starting too high*/
   	padding-top:0.5%;
   	
 }
@@ -36,16 +38,16 @@
 
 #header-img
 {
-	/*This resizes the image*/
+	/*This resizes the logo*/
 	width:26%;
 	height: auto;
-	/*This resizes the image*/
+	/*This resizes the logo*/
 	  
-	/*This centers the image*/
+	/*This centers the logo*/
 	margin-left:auto;
 	margin-right:auto;
 	display:block;
-	/*This centers the image*/
+	/*This centers the logo*/
 }
 
 a:link 
