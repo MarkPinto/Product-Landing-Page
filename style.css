@@ -1,7 +1,7 @@
 @font-face
 {
-	font-family: Diorite-BoldCursive;
-  	src: url(./Diorite-BoldCursive.ttf);
+  font-family: Diorite-BoldCursive;
+  src: url(./Diorite-BoldCursive.ttf);
 }
 
 .center-items
@@ -12,28 +12,28 @@
 .flex-box
 {
 	height: 50px;
-  	display: flex;
+  display: flex;
 }
 
 .nav-link
 {
-	font-family: Diorite-BoldCursive;
+  font-family: Diorite-BoldCursive;
   
-  	width: 33.33%;
-  	text-align:center;
+  width: 33.33%;
+  text-align:center;
 
-  	/*If borders around the links are enabled this stops the text from starting too high*/
-  	padding-top:0.5%;
+  /*If borders around the links are enabled this stops the text from starting too high*/
+  padding-top:0.5%;
   	
 }
 
 #header
 {
 	position: fixed;
-  	top: 0;
-  	left: 0;
-  	width: 100%;
-  	background-color:#03dac6;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:#03dac6;
 }
 
 #header-img
@@ -50,18 +50,23 @@
 	/*This centers the logo*/
 }
 
+#video:target
+{
+  padding-top: 200px;
+}
+
 a:link 
 {
 	color: black;
-  	text-decoration: none;
-  	font-size: 2em;
-  	overflow: hidden;
+  text-decoration: none;
+  font-size: 2em;
+  overflow: hidden;
 }
 
 a:visited 
 {
 	color: black;
-  	text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover 
@@ -73,29 +78,66 @@ a:hover
 a:active 
 {
 	color: black;
-  	text-decoration: none;
+  text-decoration: none;
 }
 
 body
 {
 	/*Stops nav bar from overlapping*/
-  	padding-top: 50%;
+  padding-top: 50%;
 }
 
 @media (max-height: 800px)
 {
 	/*Note: this is a place holder as well as the max-width*/
-  	#header-img
-  	{
-    	/*This resizes the image*/
-    	width:20%;
-    	height: auto;
-    	/*This resizes the image*/
-  	}
+  #header-img
+  {
+    /*This resizes the image*/
+    width:20%;
+    height: auto;
+    /*This resizes the image*/
+  }
   
-  	body
-  	{
-    	/*Stops nav bar from overlapping*/
-    	padding-top: 25%;
-  	}
+  body
+  {
+    /*Stops nav bar from overlapping*/
+    padding-top: 25%;
+  }
+}
+
+@media (max-height: 608px)
+{
+  /*Note: this is a place holder as well as the max-width*/
+  #header-img
+  {
+    /*This resizes the image*/
+    width:30%;
+    height: auto;
+    /*This resizes the image*/
+  }
+  
+  body
+  {
+    /*Stops nav bar from overlapping*/
+    padding-top: 45%;
+  }
+}
+
+/**/
+@media (max-height: 500px)
+{
+  /*Note: this is a place holder as well as the max-width*/
+  #header-img
+  {
+    /*This resizes the image*/
+    width:30%;
+    height: auto;
+    /*This resizes the image*/
+  }
+  
+  body
+  {
+    /*Stops nav bar from overlapping*/
+    padding-top: 45%;
+  }
 }
