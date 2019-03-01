@@ -4,6 +4,17 @@
   src: url(./Diorite-BoldCursive.ttf);
 }
 
+@font-face
+{
+  font-family: Roboto-Regular;
+  src: url(./Roboto-Regular.ttf);
+}
+
+.body-font
+{
+  font-family: Roboto-Regular;
+}
+
 .center-items
 {
 	text-align: center;
@@ -22,9 +33,19 @@
   width: 33.33%;
   text-align:center;
 
-  /*If borders around the links are enabled this stops the text from starting too high*/
+  /*If borders around the links are enabled
+   this stops the text from starting too high*/
   padding-top:0.5%;
-  	
+}
+
+:target
+{
+  /*This class makes it so that the header 
+  doesn't block the content when using 
+  anchor links to navigate the webage*/
+  padding-top: 300px;
+  margin-top: -290px;
+ 
 }
 
 #header
@@ -50,9 +71,12 @@
 	/*This centers the logo*/
 }
 
-#video:target
+#video
 {
-  padding-top: 200px;
+    /*This resizes the video*/
+    width:100%;
+    height: auto;
+    /*This resizes the image*/
 }
 
 a:link 
@@ -87,6 +111,11 @@ body
   padding-top: 50%;
 }
 
+h1
+{
+  font-family: Diorite-BoldCursive;
+}
+
 @media (max-height: 800px)
 {
 	/*Note: this is a place holder as well as the max-width*/
@@ -97,7 +126,7 @@ body
     height: auto;
     /*This resizes the image*/
   }
-  
+
   body
   {
     /*Stops nav bar from overlapping*/
@@ -115,7 +144,7 @@ body
     height: auto;
     /*This resizes the image*/
   }
-  
+
   body
   {
     /*Stops nav bar from overlapping*/
@@ -134,7 +163,7 @@ body
     height: auto;
     /*This resizes the image*/
   }
-  
+
   body
   {
     /*Stops nav bar from overlapping*/
